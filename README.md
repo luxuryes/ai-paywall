@@ -80,18 +80,21 @@ No, this method is designed to be SEO-friendly. Google will see and index the pu
 
 No. This method uses a standard technique called "lazy loading" or "conditional content delivery," which is compliant with Google's guidelines. It is not deceptive cloaking because the initial content served is the same for both users and bots. The user simply gets *more* content loaded in after the fact, which is a common practice for paywalls and user experience enhancements.
 
-== Screenshots ==
+= The rules are not appearing in my robots.txt file. Why? =
 
-1. The settings page for enabling automatic mode and setting the target word count.
-2. The post editor showing the "More" block used for manual control.
-3. A front-end view of a post after the full content has been loaded seamlessly for the user.
+This can happen if your site has a physical `robots.txt` file in its main directory. A physical file will always override the virtual one that WordPress and this plugin use. To check, visit `https://yourdomain.com/robots.txt`.
 
-== Changelog ==
+You have two solutions:
+1.  **(Recommended)** Delete the physical `robots.txt` file from your server's root directory using FTP or a file manager. This will allow the plugin to add its rules automatically and safely.
+2.  **(Manual Fix)** If you must keep your physical `robots.txt` file, you need to add the following rules to it manually:
 
-= 1.0 =
-* Initial release.
+AI Paywall Plugin
 
-== Upgrade Notice ==
+User-agent: GPTBot
+Disallow: /wp-json/ai-paywall/
 
-= 1.0 =
-* Initial release of the AI Paywall plugin.
+User-agent: CCBot
+Disallow: /wp-json/ai-paywall/
+
+User-agent: *
+Disallow: /wp-json/ai-paywall/
