@@ -88,6 +88,9 @@ You have two solutions:
 1.  **(Recommended)** Delete the physical `robots.txt` file from your server's root directory using FTP or a file manager. This will allow the plugin to add its rules automatically and safely.
 2.  **(Manual Fix)** If you must keep your physical `robots.txt` file, you need to add the following rules to it manually:
 
+
+```ini
+
 AI Paywall Plugin
 
 User-agent: GPTBot
