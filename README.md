@@ -4,7 +4,7 @@ Protect your full content from AI crawlers while keeping a public, SEO-friendly 
 
 === AI Paywall ===
 Contributors: luxuryes
-Author URI:        https://luxuryes.com/
+Author URI: https://luxuryes.com/
 Tags: ai, paywall, content protection, seo, gptbot
 Requires at least: 5.5
 Tested up to: 6.8
