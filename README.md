@@ -88,10 +88,10 @@ Disallow: /wp-json/ai-paywall/
 
 ```
 
-For Maximum Protection (Advanced)
+For Maximum Protection (Advanced) [For Maximum Protection.md](https://github.com/luxuryes/ai-paywall/blob/main/For%20Maximum%20Protection.md)
 
 The AI Paywall plugin automatically blocks the most important crawlers (GPTBot, CCBot, and a general * rule) from your content API. This provides excellent baseline protection.
 
-However, for users who want the most comprehensive blocklist possible, you can manually add the following expanded rules to your site's robots.txt file. This list, inspired by major publishers like Robb Report, targets a wider array of AI, data-scraping, and next-gen search bots.
+However, for users who want the most comprehensive blocklist possible, you can manually add the following expanded rules to your site's robots.txt file. This list, inspired by major publishers, targets a wider array of AI, data-scraping, and next-gen search bots.
 
 Note: This is a manual step. The plugin does not add these extra rules automatically.
