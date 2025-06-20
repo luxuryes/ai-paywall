@@ -1,7 +1,7 @@
 # ai-paywall
 Protect your full content from AI crawlers while keeping a public, SEO-friendly snippet for search engines.
 
-
+```markdown
 === AI Paywall ===
 Contributors: luxuryes
 Author URI: https://luxuryes.com/
@@ -15,7 +15,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 
 
-```markdown
+
 # AI Paywall for WordPress
 
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/ai-paywall.svg)](https://wordpress.org/plugins/ai-paywall/)
