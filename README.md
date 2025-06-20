@@ -1,19 +1,3 @@
-# ai-paywall
-Protect your full content from AI crawlers while keeping a public, SEO-friendly snippet for search engines.
-
-
-=== AI Paywall ===
-* Contributors: luxuryes
-* Author URI: https://luxuryes.com/
-* Tags: ai, paywall, content protection, seo, gptbot
-* Requires at least: 5.5
-* Tested up to: 6.8
-* Requires PHP: 7.4
-* Stable tag: 1.0
-* License: GPLv2 or later
-* License URI: https://www.gnu.org/licenses/gpl-2.0.html
-
-
 # AI Paywall for WordPress
 
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/ai-paywall.svg)](https://wordpress.org/plugins/ai-paywall/)
@@ -88,10 +72,12 @@ Disallow: /wp-json/ai-paywall/
 
 ```
 
-For Maximum Protection (Advanced) [For Maximum Protection.md](https://github.com/luxuryes/ai-paywall/blob/main/For%20Maximum%20Protection.md)
+## For Maximum Protection (Advanced)
 
-The AI Paywall plugin automatically blocks the most important crawlers (GPTBot, CCBot, and a general * rule) from your content API. This provides excellent baseline protection.
+The AI Paywall plugin automatically blocks the most important crawlers (`GPTBot`, `CCBot`, and a general `*` rule) from your content API. This provides excellent baseline protection.
 
-However, for users who want the most comprehensive blocklist possible, you can manually add the following expanded rules to your site's robots.txt file. This list, inspired by major publishers, targets a wider array of AI, data-scraping, and next-gen search bots.
+However, for users who want the most comprehensive blocklist possible, we maintain an expanded list in a separate document. This list, inspired by major publishers, targets a wider array of AI, data-scraping, and next-gen search bots.
 
-Note: This is a manual step. The plugin does not add these extra rules automatically.
+**[Click here to view the comprehensive blocklist for advanced users.](./For%20Maximum%20Protection.md)**
+
+*Note: This is a manual step. The plugin does not add these extra rules automatically.*
