@@ -14,8 +14,6 @@ Protect your full content from AI crawlers while keeping a public, SEO-friendly 
 * License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 
-
-
 # AI Paywall for WordPress
 
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/ai-paywall.svg)](https://wordpress.org/plugins/ai-paywall/)
@@ -87,3 +85,13 @@ Disallow: /wp-json/ai-paywall/
 
 User-agent: *
 Disallow: /wp-json/ai-paywall/
+
+```
+
+For Maximum Protection (Advanced)
+
+The AI Paywall plugin automatically blocks the most important crawlers (GPTBot, CCBot, and a general * rule) from your content API. This provides excellent baseline protection.
+
+However, for users who want the most comprehensive blocklist possible, you can manually add the following expanded rules to your site's robots.txt file. This list, inspired by major publishers like Robb Report, targets a wider array of AI, data-scraping, and next-gen search bots.
+
+Note: This is a manual step. The plugin does not add these extra rules automatically.
